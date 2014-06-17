@@ -1,7 +1,7 @@
 {
     "name": "stegeman/embedly-bundle",
     "description": "Bridge bundle for the embedly api. Defines a service and configuration for the official embedly library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "require": {
         "php": ">=5.3.0",
         "embedly/embedly-php": "v0.5.4"

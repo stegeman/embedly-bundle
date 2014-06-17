@@ -5,11 +5,11 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="stegeman_embedly.api.class">Embedly\Embedly</parameter>
+        <parameter key="stegeman_embedly.client.class">Embedly\Embedly</parameter>
     </parameters>
 
     <services>
-        <service id="stegeman_embedly.api" class="%stegeman_embedly.api.class%">
+        <service id="stegeman_embedly.client" class="%stegeman_embedly.client.class%">
             <argument>%stegeman_embedly.args%</argument>
         </service>
     </services>
